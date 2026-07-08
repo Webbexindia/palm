@@ -1,0 +1,83 @@
+.seoKeywords{
+    padding:0px 15%;
+}
+
+.seoKeywordsContainer{
+    max-width:1200px;
+    margin:auto;
+}
+
+.seoKeywordsBtn{
+    width:100%;
+    background:#121212;
+    /* border:1px solid #ddd; */
+    border-radius:8px;
+    padding:18px 22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.seoKeywordsBtn:hover{
+    border-color:#C6A87C;
+}
+
+.seoKeywordsBtn i{
+    font-size:18px;
+}
+
+.seoKeywordsGrid{
+    margin-top:15px;
+    border:1px solid #dddddd7a;
+    border-radius:8px;
+    padding:30px;
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(240px,1fr));
+    gap:18px;
+}
+
+.seoKeywordLink{
+    color:color-mix(in oklab, var(--color-brand-ivory) 80%, transparent);
+    text-decoration:none;
+    font-size:16px;
+    line-height:1.6;
+    transition:.3s;
+}
+
+.seoKeywordLink:hover{
+    color:#C6A87C;
+    text-decoration:none;
+}
+
+@media(max-width:768px){
+
+.seoKeywords{
+
+padding:40px 15px;
+
+}
+
+.seoKeywordsGrid{
+
+grid-template-columns:1fr;
+
+padding:20px;
+
+gap:12px;
+
+}
+
+.seoKeywordsBtn{
+
+font-size:16px;
+
+padding:16px;
+
+}
+
+}

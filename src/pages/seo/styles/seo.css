@@ -1,0 +1,2869 @@
+.seo-page {
+    padding-top: 120px;
+    min-height: 100vh;
+    width:100%;
+    overflow:hidden;
+}
+.h1title {
+ font-size: 43px;
+ color: #000;
+}
+
+.keyname {
+ color: #000;
+ font-weight:900;
+ font-style: italic;
+}
+
+.xyz {
+    text-decoration: none;
+}
+
+.xyz:hover {
+    color: #D4AF37;
+}
+
+/* ===========================
+   SEO Action Buttons
+=========================== */
+
+.pmSeoActionButtons{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-top:35px;
+    flex-wrap:wrap;
+}
+
+.pmSeoEnquiryBtn,
+.pmSeoWhatsappBtn{
+    flex:1;
+    min-width:fit-content;
+    height:58px;
+
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    overflow:hidden;
+
+    border-radius:8px;
+
+    transition:.35s ease;
+}
+
+.pmSeoEnquiryBtn:hover,
+.pmSeoWhatsappBtn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 28px rgba(0,0,0,.18);
+}
+
+
+/* Left Icon Box */
+
+.pmSeoEnquiryBtn i,
+.pmSeoWhatsappBtn i{
+
+    width:58px;
+    height:58px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:30px;
+    color:#fff;
+
+    flex-shrink:0;
+}
+
+
+/* Right Text */
+
+.pmSeoEnquiryBtn span,
+.pmSeoWhatsappBtn span{
+
+    flex:1;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    height:100%;
+
+    font-size:22px;
+    font-weight:700;
+
+    color:#fff;
+}
+
+
+/* Enquiry */
+
+.pmSeoEnquiryBtn{
+    background:#1e2329;
+}
+
+.pmSeoEnquiryBtn i{
+    background:#1e73be;
+}
+
+.pmSeoEnquiryBtn:hover{
+    background:#111;
+}
+
+.pmSeoEnquiryBtn:hover i{
+    background:#1664a8;
+}
+
+
+/* WhatsApp */
+
+.pmSeoWhatsappBtn{
+    background:#1e2329;
+}
+
+.pmSeoWhatsappBtn i{
+    background:#25D366;
+}
+
+.pmSeoWhatsappBtn:hover{
+    background:#111;
+}
+
+.pmSeoWhatsappBtn:hover i{
+    background:#1fb85a;
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .pmSeoActionButtons{
+        flex-direction:column;
+    }
+
+    .pmSeoEnquiryBtn,
+    .pmSeoWhatsappBtn{
+        width:100%;
+        min-width:100%;
+        height:54px;
+    }
+
+    .pmSeoEnquiryBtn i,
+    .pmSeoWhatsappBtn i{
+        width:54px;
+        height:54px;
+        font-size:26px;
+    }
+
+    .pmSeoEnquiryBtn span,
+    .pmSeoWhatsappBtn span{
+        font-size:18px;
+    }
+
+}
+
+
+/* ==========================================
+   SEO HERO SECTION
+========================================== */
+
+.pmSeoHeroSection {
+    position: relative;
+    width: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+    padding: 120px 0 90px;
+}
+
+.pmSeoHeroContainer {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    justify-items: center;
+}
+
+.pmSeoBreadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pmSeoBreadcrumb a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.pmSeoBreadcrumb a:hover {
+    color: #d4af37;
+}
+
+.pmSeoBreadcrumb span {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.pmSeoHeroTitle {
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 1.15;
+    max-width: 850px;
+    margin-bottom: 25px;
+}
+
+.pmSeoHeroDescription {
+    font-size: 20px;
+    line-height: 1.9;
+    color: rgba(255,255,255,0.92);
+    max-width: 760px;
+    margin-bottom: 40px;
+}
+
+.pmSeoHeroDescription strong {
+    color: #fff;
+    font-weight: 700;
+}
+
+.pmSeoHeroButtons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.pmSeoPrimaryBtn,
+.pmSeoSecondaryBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 16px 34px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+.pmSeoPrimaryBtn {
+    background: #ffffff;
+    color: #111;
+}
+
+.pmSeoPrimaryBtn:hover {
+    background: #d4af37;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.pmSeoSecondaryBtn {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+
+.pmSeoSecondaryBtn:hover {
+    background: #fff;
+    color: #111;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 1400px) {
+    .pmSeoHeroTitle {
+        font-size: 54px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .pmSeoHeroSection {
+        min-height: 90vh;
+    }
+
+    .pmSeoHeroTitle {
+        font-size: 48px;
+    }
+
+    .pmSeoHeroDescription {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .pmSeoHeroSection {
+        min-height: auto;
+        padding: 140px 0 90px;
+    }
+
+    .pmSeoHeroTitle {
+        font-size: 42px;
+        max-width: 100%;
+    }
+
+    .pmSeoHeroDescription {
+        font-size: 17px;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .pmSeoHeroSection {
+        padding: 120px 0 70px;
+        text-align: center;
+    }
+
+    .pmSeoBreadcrumb {
+        justify-content: center;
+        margin-bottom: 18px;
+        font-size: 14px;
+    }
+
+    .pmSeoHeroTitle {
+        font-size: 34px;
+        margin-bottom: 18px;
+    }
+
+    .pmSeoHeroDescription {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 30px;
+    }
+
+    .pmSeoHeroButtons {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .pmSeoPrimaryBtn,
+    .pmSeoSecondaryBtn {
+        width: 100%;
+        max-width: 320px;
+        padding: 15px 25px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .pmSeoHeroContainer {
+        padding: 0 18px;
+    }
+
+    .pmSeoHeroTitle {
+        font-size: 30px;
+    }
+
+    .pmSeoHeroDescription {
+        font-size: 15px;
+    }
+
+    .pmSeoBreadcrumb {
+        font-size: 13px;
+        gap: 6px;
+    }
+
+    .pmSeoPrimaryBtn,
+    .pmSeoSecondaryBtn {
+        font-size: 15px;
+        padding: 14px 22px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .pmSeoHeroTitle {
+        font-size: 26px;
+    }
+
+    .pmSeoHeroDescription {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .pmSeoPrimaryBtn,
+    .pmSeoSecondaryBtn {
+        font-size: 14px;
+        padding: 13px 18px;
+    }
+
+}
+
+
+/*==========================================
+  PALM MANOR INTRO SECTION
+==========================================*/
+
+.pmLuxuryIntroSection {
+    width: 100%;
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.pmLuxuryIntroContainer {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.pmLuxuryIntroHeading {
+    text-align: center;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.pmLuxuryIntroHeading h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1d1d1d;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.pmLuxuryIntroHeading::after {
+    content: "";
+    width: 90px;
+    height: 4px;
+    background: #d4af37;
+    display: block;
+    margin: 18px auto 0;
+    border-radius: 50px;
+}
+
+.pmLuxuryIntroContent {
+    max-width: 950px;
+    margin: auto;
+}
+
+.pmLuxuryIntroContent p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.9;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+
+.pmLuxuryIntroContent p:last-child {
+    margin-bottom: 0;
+}
+
+.pmLuxuryIntroContent strong {
+    color: #000;
+    font-weight: 700;
+}
+
+/*==========================================
+            Laptop (1200px)
+==========================================*/
+
+@media (max-width:1200px) {
+
+    .pmLuxuryIntroSection {
+        padding: 80px 25px;
+    }
+
+    .pmLuxuryIntroHeading h2 {
+        font-size: 38px;
+    }
+
+}
+
+/*==========================================
+            Tablet Landscape
+==========================================*/
+
+@media (max-width:992px) {
+
+    .pmLuxuryIntroSection {
+        padding: 70px 25px;
+    }
+
+    .pmLuxuryIntroHeading {
+        margin-bottom: 35px;
+    }
+
+    .pmLuxuryIntroHeading h2 {
+        font-size: 34px;
+    }
+
+    .pmLuxuryIntroContent {
+        max-width: 100%;
+    }
+
+    .pmLuxuryIntroContent p {
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+}
+
+/*==========================================
+            Tablet Portrait
+==========================================*/
+
+@media (max-width:768px) {
+
+    .pmLuxuryIntroSection {
+        padding: 60px 20px;
+    }
+
+    .pmLuxuryIntroHeading {
+        margin-bottom: 30px;
+    }
+
+    .pmLuxuryIntroHeading h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    .pmLuxuryIntroHeading::after {
+        width: 70px;
+    }
+
+    .pmLuxuryIntroContent p {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: left;
+    }
+
+}
+
+/*==========================================
+            Mobile Large
+==========================================*/
+
+@media (max-width:576px) {
+
+    .pmLuxuryIntroSection {
+        padding: 50px 18px;
+    }
+
+    .pmLuxuryIntroHeading h2 {
+        font-size: 26px;
+    }
+
+    .pmLuxuryIntroHeading::after {
+        width: 60px;
+        margin-top: 14px;
+    }
+
+    .pmLuxuryIntroContent p {
+        font-size: 15px;
+        line-height: 1.8;
+        margin-bottom: 18px;
+    }
+
+}
+
+/*==========================================
+            Small Mobile
+==========================================*/
+
+@media (max-width:400px) {
+
+    .pmLuxuryIntroSection {
+        padding: 45px 15px;
+    }
+
+    .pmLuxuryIntroHeading h2 {
+        font-size: 22px;
+    }
+
+    .pmLuxuryIntroContent p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+}
+
+/*=========================================
+        PALM MANOR FEATURES SECTION
+==========================================*/
+
+.pmStayFeaturesSection{
+    width:100%;
+    padding:60px 20px;
+    background:#ececec;
+}
+
+.pmStayFeaturesContainer{
+    max-width:1240px;
+    margin:auto;
+}
+
+.pmStayFeaturesHeader{
+    text-align:center;
+    max-width:820px;
+    margin:0 auto 60px;
+}
+
+.pmStayFeaturesHeader h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:18px;
+    line-height:1.3;
+}
+
+.pmStayFeaturesHeader p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+}
+
+.pmStayFeaturesGrid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.pmStayFeatureCard{
+    background:#fff;
+    padding:35px 28px;
+    border-radius:18px;
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    transition:.35s;
+    text-align:center;
+    border:1px solid #ececec;
+    height:100%;
+}
+
+.pmStayFeatureCard:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
+}
+
+.pmStayFeatureIcon{
+    width:80px;
+    height:80px;
+    margin:0 auto 22px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:36px;
+    background:#fff7e6;
+    border-radius:50%;
+}
+
+.pmStayFeatureCard h3{
+    font-size:24px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:16px;
+    line-height:1.4;
+}
+
+.pmStayFeatureCard p{
+    font-size:16px;
+    color:#666;
+    line-height:1.8;
+    margin:0;
+}
+
+/*=========================================
+            Large Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmStayFeaturesSection{
+    padding:80px 25px;
+}
+
+.pmStayFeaturesGrid{
+    gap:25px;
+}
+
+.pmStayFeaturesHeader h2{
+    font-size:38px;
+}
+
+}
+
+/*=========================================
+            Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmStayFeaturesSection{
+    padding:70px 25px;
+}
+
+.pmStayFeaturesGrid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.pmStayFeaturesHeader{
+    margin-bottom:45px;
+}
+
+.pmStayFeaturesHeader h2{
+    font-size:34px;
+}
+
+.pmStayFeatureCard{
+    padding:30px 25px;
+}
+
+}
+
+/*=========================================
+            Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmStayFeaturesSection{
+    padding:60px 20px;
+}
+
+.pmStayFeaturesGrid{
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+.pmStayFeaturesHeader{
+    margin-bottom:40px;
+}
+
+.pmStayFeaturesHeader h2{
+    font-size:30px;
+}
+
+.pmStayFeaturesHeader p{
+    font-size:16px;
+}
+
+.pmStayFeatureCard{
+    padding:30px;
+}
+
+.pmStayFeatureCard h3{
+    font-size:22px;
+}
+
+}
+
+/*=========================================
+            Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmStayFeaturesSection{
+    padding:50px 18px;
+}
+
+.pmStayFeaturesHeader{
+    margin-bottom:35px;
+}
+
+.pmStayFeaturesHeader h2{
+    font-size:26px;
+}
+
+.pmStayFeaturesHeader p{
+    font-size:15px;
+}
+
+.pmStayFeatureCard{
+    padding:28px 22px;
+}
+
+.pmStayFeatureIcon{
+    width:70px;
+    height:70px;
+    font-size:32px;
+}
+
+.pmStayFeatureCard h3{
+    font-size:20px;
+}
+
+.pmStayFeatureCard p{
+    font-size:15px;
+}
+
+}
+
+/*=========================================
+            Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmStayFeaturesSection{
+    padding:45px 15px;
+}
+
+.pmStayFeaturesHeader h2{
+    font-size:22px;
+}
+
+.pmStayFeatureCard{
+    padding:24px 18px;
+}
+
+.pmStayFeatureIcon{
+    width:65px;
+    height:65px;
+    font-size:28px;
+}
+
+.pmStayFeatureCard h3{
+    font-size:18px;
+}
+
+.pmStayFeatureCard p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+}
+
+/*=========================================
+    PALM MANOR LUXURY VILLA INFO SECTION
+==========================================*/
+
+.pmLuxuryVillaInfoSection{
+    width:100%;
+    padding:60px 20px;
+    background:#fff;
+}
+
+.pmLuxuryVillaInfoContainer{
+    max-width:1240px;
+    margin:auto;
+}
+
+.pmLuxuryVillaInfoGrid{
+    display:grid;
+    grid-template-columns:1fr 1.1fr;
+    gap:70px;
+    align-items:center;
+}
+
+/* Image */
+
+.pmLuxuryVillaImageWrapper{
+    width:100%;
+    overflow:hidden;
+    border-radius:18px;
+    /* box-shadow:0 15px 40px rgba(0,0,0,.12); */
+}
+
+.pmLuxuryVillaImage{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.pmLuxuryVillaImage:hover{
+    transform:scale(1.05);
+}
+
+/* Content */
+
+.pmLuxuryVillaContent h2{
+    font-size:40px;
+    font-weight:700;
+    color:#222;
+    line-height:1.3;
+    margin-bottom:28px;
+}
+
+.pmLuxuryVillaContent p{
+    font-size:17px;
+    color:#666;
+    line-height:1.9;
+    margin-bottom:22px;
+    text-align:justify;
+}
+
+.pmLuxuryVillaContent p:last-child{
+    margin-bottom:0;
+}
+
+.pmLuxuryVillaContent strong{
+    color:#111;
+    font-weight:700;
+}
+
+/*=========================================
+        Large Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmLuxuryVillaInfoGrid{
+    gap:50px;
+}
+
+.pmLuxuryVillaContent h2{
+    font-size:36px;
+}
+
+}
+
+/*=========================================
+        Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmLuxuryVillaInfoSection{
+    padding:60px 25px;
+}
+
+.pmLuxuryVillaInfoGrid{
+    grid-template-columns:1fr;
+    gap:45px;
+}
+
+.pmLuxuryVillaImageWrapper{
+    max-width:750px;
+    margin:auto;
+}
+
+.pmLuxuryVillaContent h2{
+    font-size:34px;
+    text-align:center;
+}
+
+.pmLuxuryVillaContent p{
+    text-align:left;
+}
+
+}
+
+/*=========================================
+        Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmLuxuryVillaInfoSection{
+    padding:60px 20px;
+}
+
+.pmLuxuryVillaInfoGrid{
+    gap:35px;
+}
+
+.pmLuxuryVillaContent h2{
+    font-size:30px;
+}
+
+.pmLuxuryVillaContent p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+}
+
+/*=========================================
+        Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmLuxuryVillaInfoSection{
+    padding:50px 18px;
+}
+
+.pmLuxuryVillaContent h2{
+    font-size:26px;
+    margin-bottom:20px;
+}
+
+.pmLuxuryVillaContent p{
+    font-size:15px;
+    margin-bottom:18px;
+}
+
+.pmLuxuryVillaImageWrapper{
+    border-radius:14px;
+}
+
+}
+
+/*=========================================
+        Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmLuxuryVillaInfoSection{
+    padding:45px 15px;
+}
+
+.pmLuxuryVillaContent h2{
+    font-size:22px;
+}
+
+.pmLuxuryVillaContent p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+}
+
+/*=========================================
+    PALM MANOR LUXURY AMENITIES SECTION
+==========================================*/
+
+.pmLuxuryAmenitiesSection{
+    width:100%;
+    padding:60px 20px;
+    background:#ececec;
+}
+
+.pmLuxuryAmenitiesContainer{
+    max-width:1240px;
+    margin:auto;
+}
+
+.pmLuxuryAmenitiesHeader{
+    max-width:850px;
+    margin:0 auto 60px;
+    text-align:center;
+}
+
+.pmLuxuryAmenitiesHeader h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:18px;
+    line-height:1.3;
+}
+
+.pmLuxuryAmenitiesHeader p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+}
+
+.pmLuxuryAmenitiesHeader strong{
+    color:#111;
+}
+
+/* Grid */
+
+.pmLuxuryAmenitiesGrid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:28px;
+}
+
+/* Card */
+
+.pmLuxuryAmenityCard{
+    background:#fff;
+    border-radius:18px;
+    padding:30px 25px;
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+    transition:.35s ease;
+    border:1px solid #ececec;
+    height:100%;
+}
+
+.pmLuxuryAmenityCard:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
+}
+
+.pmLuxuryAmenityCard h3{
+    font-size:22px;
+    color:#222;
+    margin-bottom:15px;
+    line-height:1.4;
+}
+
+.pmLuxuryAmenityCard p{
+    font-size:16px;
+    color:#666;
+    line-height:1.8;
+    margin:0;
+}
+
+/*=========================================
+        Large Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmLuxuryAmenitiesSection{
+    padding:80px 25px;
+}
+
+.pmLuxuryAmenitiesGrid{
+    grid-template-columns:repeat(4,1fr);
+    gap:22px;
+}
+
+.pmLuxuryAmenitiesHeader h2{
+    font-size:38px;
+}
+
+.pmLuxuryAmenityCard{
+    padding:28px 22px;
+}
+
+}
+
+/*=========================================
+        Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmLuxuryAmenitiesSection{
+    padding:70px 25px;
+}
+
+.pmLuxuryAmenitiesGrid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.pmLuxuryAmenitiesHeader{
+    margin-bottom:45px;
+}
+
+.pmLuxuryAmenitiesHeader h2{
+    font-size:34px;
+}
+
+.pmLuxuryAmenitiesHeader p{
+    font-size:17px;
+}
+
+}
+
+/*=========================================
+        Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmLuxuryAmenitiesSection{
+    padding:60px 20px;
+}
+
+.pmLuxuryAmenitiesGrid{
+    grid-template-columns:1fr;
+    gap:22px;
+}
+
+.pmLuxuryAmenitiesHeader{
+    margin-bottom:40px;
+}
+
+.pmLuxuryAmenitiesHeader h2{
+    font-size:30px;
+}
+
+.pmLuxuryAmenitiesHeader p{
+    font-size:16px;
+}
+
+.pmLuxuryAmenityCard{
+    padding:28px;
+}
+
+.pmLuxuryAmenityCard h3{
+    font-size:20px;
+}
+
+}
+
+/*=========================================
+        Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmLuxuryAmenitiesSection{
+    padding:50px 18px;
+}
+
+.pmLuxuryAmenitiesHeader{
+    margin-bottom:35px;
+}
+
+.pmLuxuryAmenitiesHeader h2{
+    font-size:26px;
+}
+
+.pmLuxuryAmenitiesHeader p{
+    font-size:15px;
+}
+
+.pmLuxuryAmenityCard{
+    padding:25px 20px;
+}
+
+.pmLuxuryAmenityCard h3{
+    font-size:19px;
+}
+
+.pmLuxuryAmenityCard p{
+    font-size:15px;
+}
+
+}
+
+/*=========================================
+        Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmLuxuryAmenitiesSection{
+    padding:45px 15px;
+}
+
+.pmLuxuryAmenitiesHeader h2{
+    font-size:22px;
+}
+
+.pmLuxuryAmenitiesHeader p{
+    font-size:14px;
+}
+
+.pmLuxuryAmenityCard{
+    padding:22px 18px;
+}
+
+.pmLuxuryAmenityCard h3{
+    font-size:18px;
+}
+
+.pmLuxuryAmenityCard p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+}
+
+/*=========================================
+      PALM MANOR CTA SECTION
+==========================================*/
+
+.pmLuxuryCtaSection{
+    width:100%;
+    padding:90px 20px;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+.pmLuxuryCtaContainer{
+    max-width:1200px;
+    margin:auto;
+}
+
+.pmLuxuryCtaContent{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.pmLuxuryCtaContent h2{
+    font-size:44px;
+    font-weight:700;
+    color:#fff;
+    margin-bottom:25px;
+    line-height:1.3;
+}
+
+.pmLuxuryCtaContent p{
+    font-size:18px;
+    color:rgba(255,255,255,.92);
+    line-height:1.9;
+    margin-bottom:40px;
+}
+
+.pmLuxuryCtaContent strong{
+    color:#FFD166;
+    font-weight:700;
+}
+
+/* Buttons */
+
+.pmLuxuryCtaButtons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.pmLuxuryPrimaryBtn,
+.pmLuxurySecondaryBtn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:220px;
+    padding:16px 36px;
+    font-size:17px;
+    font-weight:600;
+    text-decoration:none;
+    border-radius:50px;
+    transition:.35s ease;
+}
+
+/* Primary */
+
+.pmLuxuryPrimaryBtn{
+    background:#FFD166;
+    color:#222;
+    border:2px solid #FFD166;
+}
+
+.pmLuxuryPrimaryBtn:hover{
+    background:#fff;
+    border-color:#fff;
+    transform:translateY(-4px);
+}
+
+/* Secondary */
+
+.pmLuxurySecondaryBtn{
+    background:transparent;
+    color:#fff;
+    border:2px solid rgba(255,255,255,.7);
+}
+
+.pmLuxurySecondaryBtn:hover{
+    background:#25D366;
+    border-color:#25D366;
+    color:#fff;
+    transform:translateY(-4px);
+}
+
+/*=========================================
+        Large Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmLuxuryCtaContent h2{
+    font-size:40px;
+}
+
+}
+
+/*=========================================
+        Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmLuxuryCtaSection{
+    padding:75px 25px;
+}
+
+.pmLuxuryCtaContent h2{
+    font-size:36px;
+}
+
+.pmLuxuryCtaContent p{
+    font-size:17px;
+}
+
+}
+
+/*=========================================
+        Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmLuxuryCtaSection{
+    padding:65px 20px;
+}
+
+.pmLuxuryCtaContent h2{
+    font-size:30px;
+}
+
+.pmLuxuryCtaContent p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+.pmLuxuryCtaButtons{
+    flex-direction:column;
+    gap:18px;
+}
+
+.pmLuxuryPrimaryBtn,
+.pmLuxurySecondaryBtn{
+    width:100%;
+    max-width:340px;
+}
+
+}
+
+/*=========================================
+            Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmLuxuryCtaSection{
+    padding:55px 18px;
+}
+
+.pmLuxuryCtaContent h2{
+    font-size:26px;
+}
+
+.pmLuxuryCtaContent p{
+    font-size:15px;
+    margin-bottom:30px;
+}
+
+.pmLuxuryPrimaryBtn,
+.pmLuxurySecondaryBtn{
+    min-width:100%;
+    padding:15px 20px;
+    font-size:16px;
+}
+
+}
+
+/*=========================================
+        Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmLuxuryCtaSection{
+    padding:45px 15px;
+}
+
+.pmLuxuryCtaContent h2{
+    font-size:22px;
+}
+
+.pmLuxuryCtaContent p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+.pmLuxuryPrimaryBtn,
+.pmLuxurySecondaryBtn{
+    font-size:15px;
+    padding:14px 18px;
+}
+
+}
+
+/*=========================================
+    PALM MANOR LUXURY EXPERIENCE SECTION
+==========================================*/
+
+.pmLuxuryExperienceSection{
+    width:100%;
+    padding:90px 20px;
+    background:#ffffff;
+}
+
+.pmLuxuryExperienceContainer{
+    max-width:1240px;
+    margin:auto;
+}
+
+.pmLuxuryExperienceGrid{
+    display:grid;
+    grid-template-columns:1.1fr 1fr;
+    gap:70px;
+    align-items:center;
+}
+
+/*==============================
+        Content
+==============================*/
+
+.pmLuxuryExperienceContent h2{
+    font-size:40px;
+    font-weight:700;
+    color:#222;
+    line-height:1.3;
+    margin-bottom:28px;
+}
+
+.pmLuxuryExperienceContent p{
+    font-size:17px;
+    line-height:1.9;
+    color:#666;
+    margin-bottom:22px;
+    text-align:justify;
+}
+
+.pmLuxuryExperienceContent p:last-child{
+    margin-bottom:0;
+}
+
+.pmLuxuryExperienceContent strong{
+    color:#111;
+    font-weight:700;
+}
+
+/*==============================
+        Image
+==============================*/
+
+.pmLuxuryExperienceImageBox{
+    width:100%;
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+}
+
+.pmLuxuryExperienceImage{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    transition:.5s ease;
+}
+
+.pmLuxuryExperienceImage:hover{
+    transform:scale(1.05);
+}
+
+/*=========================================
+        Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmLuxuryExperienceGrid{
+    gap:50px;
+}
+
+.pmLuxuryExperienceContent h2{
+    font-size:36px;
+}
+
+}
+
+/*=========================================
+        Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmLuxuryExperienceSection{
+    padding:70px 25px;
+}
+
+.pmLuxuryExperienceGrid{
+    grid-template-columns:1fr;
+    gap:45px;
+}
+
+.pmLuxuryExperienceContent{
+    order:2;
+}
+
+.pmLuxuryExperienceImageBox{
+    order:1;
+    max-width:760px;
+    margin:auto;
+}
+
+.pmLuxuryExperienceContent h2{
+    font-size:34px;
+    text-align:center;
+}
+
+.pmLuxuryExperienceContent p{
+    text-align:left;
+}
+
+}
+
+/*=========================================
+        Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmLuxuryExperienceSection{
+    padding:60px 20px;
+}
+
+.pmLuxuryExperienceGrid{
+    gap:35px;
+}
+
+.pmLuxuryExperienceContent h2{
+    font-size:30px;
+}
+
+.pmLuxuryExperienceContent p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+}
+
+/*=========================================
+        Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmLuxuryExperienceSection{
+    padding:50px 18px;
+}
+
+.pmLuxuryExperienceContent h2{
+    font-size:26px;
+    margin-bottom:20px;
+}
+
+.pmLuxuryExperienceContent p{
+    font-size:15px;
+    margin-bottom:18px;
+}
+
+.pmLuxuryExperienceImageBox{
+    border-radius:16px;
+}
+
+}
+
+/*=========================================
+        Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmLuxuryExperienceSection{
+    padding:45px 15px;
+}
+
+.pmLuxuryExperienceContent h2{
+    font-size:22px;
+}
+
+.pmLuxuryExperienceContent p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+.pmLuxuryExperienceImageBox{
+    border-radius:14px;
+}
+
+}
+
+/*=========================================
+      PALM MANOR OCCASIONS SECTION
+==========================================*/
+
+.pmOccasionSection{
+    width:100%;
+    padding:90px 20px;
+    background:#f8f9fb;
+}
+
+.pmOccasionContainer{
+    max-width:1240px;
+    margin:auto;
+}
+
+/* Header */
+
+.pmOccasionHeader{
+    max-width:850px;
+    margin:0 auto 60px;
+    text-align:center;
+}
+
+.pmOccasionHeader h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:18px;
+    line-height:1.3;
+}
+
+.pmOccasionHeader p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+}
+
+.pmOccasionHeader strong{
+    color:#111;
+}
+
+/* Grid */
+
+.pmOccasionGrid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+/* Card */
+
+.pmOccasionCard{
+    background:#fff;
+    padding:35px 30px;
+    border-radius:18px;
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    border:1px solid #ececec;
+    transition:.35s;
+    height:100%;
+}
+
+.pmOccasionCard:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+}
+
+.pmOccasionCard h3{
+    font-size:23px;
+    color:#222;
+    margin-bottom:16px;
+    line-height:1.4;
+}
+
+.pmOccasionCard p{
+    font-size:16px;
+    color:#666;
+    line-height:1.8;
+    margin:0;
+}
+
+/*=========================================
+        Large Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmOccasionSection{
+    padding:80px 25px;
+}
+
+.pmOccasionHeader h2{
+    font-size:38px;
+}
+
+.pmOccasionGrid{
+    gap:24px;
+}
+
+}
+
+/*=========================================
+        Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmOccasionSection{
+    padding:70px 25px;
+}
+
+.pmOccasionGrid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.pmOccasionHeader{
+    margin-bottom:45px;
+}
+
+.pmOccasionHeader h2{
+    font-size:34px;
+}
+
+.pmOccasionHeader p{
+    font-size:17px;
+}
+
+}
+
+/*=========================================
+        Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmOccasionSection{
+    padding:60px 20px;
+}
+
+.pmOccasionGrid{
+    grid-template-columns:1fr;
+    gap:22px;
+}
+
+.pmOccasionHeader{
+    margin-bottom:40px;
+}
+
+.pmOccasionHeader h2{
+    font-size:30px;
+}
+
+.pmOccasionHeader p{
+    font-size:16px;
+}
+
+.pmOccasionCard{
+    padding:28px;
+}
+
+.pmOccasionCard h3{
+    font-size:21px;
+}
+
+}
+
+/*=========================================
+            Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmOccasionSection{
+    padding:50px 18px;
+}
+
+.pmOccasionHeader{
+    margin-bottom:35px;
+}
+
+.pmOccasionHeader h2{
+    font-size:26px;
+}
+
+.pmOccasionHeader p{
+    font-size:15px;
+}
+
+.pmOccasionCard{
+    padding:24px 20px;
+}
+
+.pmOccasionCard h3{
+    font-size:19px;
+}
+
+.pmOccasionCard p{
+    font-size:15px;
+}
+
+}
+
+/*=========================================
+        Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmOccasionSection{
+    padding:45px 15px;
+}
+
+.pmOccasionHeader h2{
+    font-size:22px;
+}
+
+.pmOccasionHeader p{
+    font-size:14px;
+}
+
+.pmOccasionCard{
+    padding:22px 18px;
+}
+
+.pmOccasionCard h3{
+    font-size:18px;
+}
+
+.pmOccasionCard p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+}
+
+/*=========================================
+      PALM MANOR LOCATION SECTION
+==========================================*/
+
+.pmLocationGuideSection{
+    width:100%;
+    padding:90px 20px;
+    background:#ffffff;
+}
+
+.pmLocationGuideContainer{
+    max-width:1240px;
+    margin:auto;
+}
+
+/* Header */
+
+.pmLocationGuideHeader{
+    max-width:900px;
+    margin:0 auto 60px;
+    text-align:center;
+}
+
+.pmLocationGuideHeader h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    line-height:1.3;
+    margin-bottom:20px;
+}
+
+.pmLocationGuideHeader p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+}
+
+/* Content */
+
+.pmLocationGuideContent{
+    display:grid;
+    grid-template-columns:1.2fr .9fr;
+    gap:45px;
+    align-items:start;
+}
+
+.pmLocationGuideInfo p{
+    font-size:17px;
+    color:#666;
+    line-height:1.9;
+    margin-bottom:22px;
+    text-align:justify;
+}
+
+.pmLocationGuideInfo strong{
+    color:#111;
+    font-weight:700;
+}
+
+/* Nearby Card */
+
+.pmLocationGuidePlaces{
+    background:#f8f9fb;
+    padding:35px;
+    border-radius:18px;
+    border:1px solid #ececec;
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+}
+
+.pmLocationGuidePlaces h3{
+    font-size:28px;
+    color:#222;
+    margin-bottom:25px;
+}
+
+/* List */
+
+.pmLocationGuideList{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.pmLocationGuideList li{
+    padding:14px 0;
+    border-bottom:1px solid #e8e8e8;
+    font-size:17px;
+    color:#555;
+    transition:.3s;
+}
+
+.pmLocationGuideList li:last-child{
+    border-bottom:none;
+}
+
+.pmLocationGuideList li:hover{
+    color:#000;
+    padding-left:10px;
+}
+
+/*=========================================
+        Large Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmLocationGuideHeader h2{
+    font-size:38px;
+}
+
+}
+
+/*=========================================
+        Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmLocationGuideSection{
+    padding:70px 25px;
+}
+
+.pmLocationGuideContent{
+    grid-template-columns:1fr;
+}
+
+.pmLocationGuideHeader{
+    margin-bottom:45px;
+}
+
+.pmLocationGuideHeader h2{
+    font-size:34px;
+}
+
+.pmLocationGuideHeader p{
+    font-size:17px;
+}
+
+}
+
+/*=========================================
+        Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmLocationGuideSection{
+    padding:60px 20px;
+}
+
+.pmLocationGuideHeader h2{
+    font-size:30px;
+}
+
+.pmLocationGuideHeader p{
+    font-size:16px;
+}
+
+.pmLocationGuideInfo p{
+    font-size:16px;
+    text-align:left;
+}
+
+.pmLocationGuidePlaces{
+    padding:30px;
+}
+
+.pmLocationGuidePlaces h3{
+    font-size:24px;
+}
+
+.pmLocationGuideList li{
+    font-size:16px;
+}
+
+}
+
+/*=========================================
+            Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmLocationGuideSection{
+    padding:50px 18px;
+}
+
+.pmLocationGuideHeader{
+    margin-bottom:35px;
+}
+
+.pmLocationGuideHeader h2{
+    font-size:26px;
+}
+
+.pmLocationGuideHeader p{
+    font-size:15px;
+}
+
+.pmLocationGuideInfo p{
+    font-size:15px;
+}
+
+.pmLocationGuidePlaces{
+    padding:25px 20px;
+}
+
+.pmLocationGuidePlaces h3{
+    font-size:22px;
+}
+
+.pmLocationGuideList li{
+    font-size:15px;
+    padding:12px 0;
+}
+
+}
+
+/*=========================================
+        Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmLocationGuideSection{
+    padding:45px 15px;
+}
+
+.pmLocationGuideHeader h2{
+    font-size:22px;
+}
+
+.pmLocationGuideHeader p{
+    font-size:14px;
+}
+
+.pmLocationGuideInfo p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+.pmLocationGuidePlaces{
+    padding:20px 18px;
+}
+
+.pmLocationGuidePlaces h3{
+    font-size:20px;
+}
+
+.pmLocationGuideList li{
+    font-size:14px;
+}
+
+}
+
+/*=========================================
+     PALM MANOR GUEST EXPERIENCE SECTION
+==========================================*/
+
+.pmGuestExperienceSection{
+    width:100%;
+    padding:90px 20px;
+    background:#f8f9fb;
+}
+
+.pmGuestExperienceContainer{
+    max-width:1240px;
+    margin:auto;
+}
+
+.pmGuestExperienceWrapper{
+    max-width:980px;
+    margin:auto;
+    background:#fff;
+    padding:60px;
+    border-radius:22px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    border:1px solid #ececec;
+}
+
+/* Header */
+
+.pmGuestExperienceHeader{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.pmGuestExperienceHeader h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    line-height:1.3;
+    margin-bottom:18px;
+}
+
+.pmGuestExperienceHeader p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+}
+
+/* Content */
+
+.pmGuestExperienceContent p{
+    font-size:17px;
+    color:#666;
+    line-height:1.9;
+    margin-bottom:24px;
+    text-align:justify;
+}
+
+.pmGuestExperienceContent p:last-child{
+    margin-bottom:0;
+}
+
+.pmGuestExperienceContent strong{
+    color:#111;
+    font-weight:700;
+}
+
+/*=========================================
+          Large Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmGuestExperienceHeader h2{
+    font-size:38px;
+}
+
+}
+
+/*=========================================
+        Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmGuestExperienceSection{
+    padding:70px 25px;
+}
+
+.pmGuestExperienceWrapper{
+    padding:45px;
+}
+
+.pmGuestExperienceHeader h2{
+    font-size:34px;
+}
+
+.pmGuestExperienceHeader p{
+    font-size:17px;
+}
+
+}
+
+/*=========================================
+        Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmGuestExperienceSection{
+    padding:60px 20px;
+}
+
+.pmGuestExperienceWrapper{
+    padding:35px;
+}
+
+.pmGuestExperienceHeader{
+    margin-bottom:30px;
+}
+
+.pmGuestExperienceHeader h2{
+    font-size:30px;
+}
+
+.pmGuestExperienceHeader p{
+    font-size:16px;
+}
+
+.pmGuestExperienceContent p{
+    font-size:16px;
+    text-align:left;
+}
+
+}
+
+/*=========================================
+             Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmGuestExperienceSection{
+    padding:50px 18px;
+}
+
+.pmGuestExperienceWrapper{
+    padding:28px 22px;
+    border-radius:18px;
+}
+
+.pmGuestExperienceHeader h2{
+    font-size:26px;
+}
+
+.pmGuestExperienceHeader p{
+    font-size:15px;
+}
+
+.pmGuestExperienceContent p{
+    font-size:15px;
+    margin-bottom:18px;
+}
+
+}
+
+/*=========================================
+          Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmGuestExperienceSection{
+    padding:45px 15px;
+}
+
+.pmGuestExperienceWrapper{
+    padding:22px 18px;
+}
+
+.pmGuestExperienceHeader h2{
+    font-size:22px;
+}
+
+.pmGuestExperienceHeader p{
+    font-size:14px;
+}
+
+.pmGuestExperienceContent p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+}
+
+/*=========================================
+      PALM MANOR EXPLORE LINKS SECTION
+==========================================*/
+
+.pmExploreLinksSection{
+    width:100%;
+    padding:90px 20px;
+    background:#ffffff;
+}
+
+.pmExploreLinksContainer{
+    max-width:1240px;
+    margin:auto;
+}
+
+/* Header */
+
+.pmExploreLinksHeader{
+    max-width:850px;
+    margin:0 auto 60px;
+    text-align:center;
+}
+
+.pmExploreLinksHeader h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:20px;
+    line-height:1.3;
+}
+
+.pmExploreLinksHeader p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+}
+
+.pmExploreLinksHeader strong{
+    color:#111;
+}
+
+/* Grid */
+
+.pmExploreLinksGrid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+/* Card */
+
+.pmExploreLinkCard{
+    background:#fff;
+    border-radius:18px;
+    padding:35px 28px;
+    border:1px solid #ececec;
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    text-decoration:none;
+    transition:.35s;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+
+.pmExploreLinkCard:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.pmExploreLinkIcon{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.pmExploreLinkCard h3{
+    font-size:24px;
+    color:#222;
+    margin-bottom:15px;
+    transition:.3s;
+}
+
+.pmExploreLinkCard:hover h3{
+    color:#b8860b;
+}
+
+.pmExploreLinkCard p{
+    font-size:16px;
+    color:#666;
+    line-height:1.8;
+    margin:0;
+}
+
+/*=========================================
+        Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmExploreLinksHeader h2{
+    font-size:38px;
+}
+
+.pmExploreLinksGrid{
+    gap:20px;
+}
+
+}
+
+/*=========================================
+      Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmExploreLinksSection{
+    padding:70px 25px;
+}
+
+.pmExploreLinksGrid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.pmExploreLinksHeader{
+    margin-bottom:45px;
+}
+
+.pmExploreLinksHeader h2{
+    font-size:34px;
+}
+
+.pmExploreLinksHeader p{
+    font-size:17px;
+}
+
+}
+
+/*=========================================
+      Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmExploreLinksSection{
+    padding:60px 20px;
+}
+
+.pmExploreLinksGrid{
+    grid-template-columns:1fr;
+    gap:22px;
+}
+
+.pmExploreLinksHeader{
+    margin-bottom:40px;
+}
+
+.pmExploreLinksHeader h2{
+    font-size:30px;
+}
+
+.pmExploreLinksHeader p{
+    font-size:16px;
+}
+
+.pmExploreLinkCard{
+    padding:30px;
+}
+
+}
+
+/*=========================================
+          Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmExploreLinksSection{
+    padding:50px 18px;
+}
+
+.pmExploreLinksHeader{
+    margin-bottom:35px;
+}
+
+.pmExploreLinksHeader h2{
+    font-size:26px;
+}
+
+.pmExploreLinksHeader p{
+    font-size:15px;
+}
+
+.pmExploreLinkIcon{
+    font-size:36px;
+}
+
+.pmExploreLinkCard h3{
+    font-size:22px;
+}
+
+.pmExploreLinkCard p{
+    font-size:15px;
+}
+
+}
+
+/*=========================================
+        Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmExploreLinksSection{
+    padding:45px 15px;
+}
+
+.pmExploreLinksHeader h2{
+    font-size:22px;
+}
+
+.pmExploreLinksHeader p{
+    font-size:14px;
+}
+
+.pmExploreLinkCard{
+    padding:24px 18px;
+}
+
+.pmExploreLinkCard h3{
+    font-size:20px;
+}
+
+.pmExploreLinkCard p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+}
+
+/*=========================================
+      PALM MANOR FINAL BOOKING CTA
+==========================================*/
+
+.pmFinalBookingSection{
+    width:100%;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#182848 0%,#4b6cb7 100%);
+    position:relative;
+    overflow:hidden;
+}
+
+.pmFinalBookingSection::before{
+    content:"";
+    position:absolute;
+    width:320px;
+    height:320px;
+    background:rgba(255,255,255,.08);
+    border-radius:50%;
+    top:-120px;
+    left:-120px;
+}
+
+.pmFinalBookingSection::after{
+    content:"";
+    position:absolute;
+    width:280px;
+    height:280px;
+    background:rgba(255,255,255,.05);
+    border-radius:50%;
+    right:-100px;
+    bottom:-100px;
+}
+
+.pmFinalBookingContainer{
+    max-width:1240px;
+    margin:auto;
+    position:relative;
+    z-index:2;
+}
+
+.pmFinalBookingContent{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.pmFinalBookingTag{
+    display:inline-block;
+    padding:10px 22px;
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.2);
+    border-radius:30px;
+    color:#FFD166;
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:24px;
+    letter-spacing:.5px;
+}
+
+.pmFinalBookingContent h2{
+    font-size:46px;
+    color:#fff;
+    font-weight:700;
+    line-height:1.3;
+    margin-bottom:25px;
+}
+
+.pmFinalBookingContent p{
+    max-width:760px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.9;
+    color:rgba(255,255,255,.92);
+    margin-bottom:45px;
+}
+
+.pmFinalBookingContent strong{
+    color:#FFD166;
+}
+
+/* Buttons */
+
+.pmFinalBookingButtons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.pmFinalBookingPrimaryBtn,
+.pmFinalBookingSecondaryBtn{
+
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    min-width:230px;
+    padding:17px 34px;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:17px;
+    font-weight:600;
+    transition:.35s ease;
+}
+
+.pmFinalBookingPrimaryBtn{
+
+    background:#FFD166;
+    color:#222;
+}
+
+.pmFinalBookingPrimaryBtn:hover{
+
+    background:#fff;
+    color:#222;
+    transform:translateY(-5px);
+}
+
+.pmFinalBookingSecondaryBtn{
+
+    border:2px solid rgba(255,255,255,.7);
+    color:#fff;
+    background:transparent;
+}
+
+.pmFinalBookingSecondaryBtn:hover{
+
+    background:#25D366;
+    border-color:#25D366;
+    transform:translateY(-5px);
+}
+
+/*=========================================
+        Laptop
+==========================================*/
+
+@media(max-width:1200px){
+
+.pmFinalBookingContent h2{
+
+    font-size:40px;
+}
+
+}
+
+/*=========================================
+      Tablet Landscape
+==========================================*/
+
+@media(max-width:992px){
+
+.pmFinalBookingSection{
+
+    padding:80px 25px;
+}
+
+.pmFinalBookingContent h2{
+
+    font-size:36px;
+}
+
+.pmFinalBookingContent p{
+
+    font-size:17px;
+}
+
+}
+
+/*=========================================
+      Tablet Portrait
+==========================================*/
+
+@media(max-width:768px){
+
+.pmFinalBookingSection{
+
+    padding:70px 20px;
+}
+
+.pmFinalBookingContent h2{
+
+    font-size:30px;
+}
+
+.pmFinalBookingContent p{
+
+    font-size:16px;
+    margin-bottom:35px;
+}
+
+.pmFinalBookingButtons{
+
+    flex-direction:column;
+}
+
+.pmFinalBookingPrimaryBtn,
+.pmFinalBookingSecondaryBtn{
+
+    width:100%;
+    max-width:340px;
+}
+
+}
+
+/*=========================================
+          Mobile
+==========================================*/
+
+@media(max-width:576px){
+
+.pmFinalBookingSection{
+
+    padding:60px 18px;
+}
+
+.pmFinalBookingTag{
+
+    font-size:14px;
+    padding:8px 18px;
+}
+
+.pmFinalBookingContent h2{
+
+    font-size:26px;
+}
+
+.pmFinalBookingContent p{
+
+    font-size:15px;
+}
+
+.pmFinalBookingPrimaryBtn,
+.pmFinalBookingSecondaryBtn{
+
+    width:100%;
+    min-width:100%;
+    padding:15px 20px;
+    font-size:16px;
+}
+
+}
+
+/*=========================================
+      Small Mobile
+==========================================*/
+
+@media(max-width:400px){
+
+.pmFinalBookingSection{
+
+    padding:50px 15px;
+}
+
+.pmFinalBookingContent h2{
+
+    font-size:22px;
+}
+
+.pmFinalBookingContent p{
+
+    font-size:14px;
+    line-height:1.7;
+}
+
+.pmFinalBookingPrimaryBtn,
+.pmFinalBookingSecondaryBtn{
+
+    font-size:15px;
+}
+
+}
+
+
