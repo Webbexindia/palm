@@ -1,111 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>https://www.palmmanorlonavala.in/</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://www.palmmanorlonavala.in/about-us/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+        <loc>https://www.palmmanorlonavala.in/8-bhk-villa-in-lonavala/</loc>
         <lastmod>2026-07-17</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.palmmanorlonavala.in/about-us/</loc>
+        <loc>https://www.palmmanorlonavala.in/luxury-villa-for-family-reunion-lonavala/</loc>
+        <lastmod>2026-07-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.palmmanorlonavala.in/villas/</loc>
-        <changefreq>weekly</changefreq>
+        <loc>https://www.palmmanorlonavala.in/villa-for-pre-wedding-party-lonavala/</loc>
+        <lastmod>2026-07-17</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.palmmanorlonavala.in/villa-russet/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/villa-blick/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/villa-kadan/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/villa-toska/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/events/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/destination-wedding/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/pre-wedding-functions/</loc>
+        <loc>https://www.palmmanorlonavala.in/large-villas-for-rent-in-lonavala/</loc>
+        <lastmod>2026-07-17</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.palmmanorlonavala.in/corporate-events/</loc>
+        <loc>https://www.palmmanorlonavala.in/corporate-retreat-villa-lonavala/</loc>
+        <lastmod>2026-07-17</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://www.palmmanorlonavala.in/family-get-together/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/birthday-celebration/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/engagement-party/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/gallery/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/blog/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://www.palmmanorlonavala.in/contact-us/</loc>
+        <loc>https://www.palmmanorlonavala.in/villa-for-big-group-in-lonavala/</loc>
+        <lastmod>2026-07-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
+    <url>
+        <loc>https://www.palmmanorlonavala.in/private-villa-for-15-plus-guests-lonavala/</loc>
+        <lastmod>2026-07-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+<loc>https://www.palmmanorlonavala.in/gallery/</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.palmmanorlonavala.in/blog/</loc>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.palmmanorlonavala.in/contact-us/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
 </urlset>
